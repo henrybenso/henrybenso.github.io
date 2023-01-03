@@ -45,10 +45,10 @@ const About = () => {
             pique my interest.
           </p>
           <p>
-            In my free time, I like to learn about new programming languages and
-            frameworks with generally a high-level understanding of their
-            pros/cons. I also love to build keyboards and configure them as it
-            is my weapon of choice for daily programming.
+            In my free time, I like to learn about new technologies with
+            generally a high-level understanding of their pros/cons. I also love
+            to build keyboards and configure them as it is my weapon of choice
+            for daily programming.
           </p>
         </div>
 
