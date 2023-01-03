@@ -48,8 +48,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in asdfasdgojajasdg bananan bannbnanbanbn
-            abnanbanbnabnanb rswtyjnzrnjy swtrymjknntkm7yyswtmky 77
+            I am in search of internship opportunities. Contact me using the
+            form below.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
