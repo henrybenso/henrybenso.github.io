@@ -1,8 +1,11 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://henrybenso.github.io/henrybenso.github.io",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,5 +48,8 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.57.1",
     "web-vitals": "^3.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
