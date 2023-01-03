@@ -6,10 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const Sidebar = () => (
-    <div className='nav-bar'>
+const Sidebar = () => {
+    
+    return (
+        <div className='nav-bar'>
         <Link className='logo' to='/'>
-            <img src={LogoS} alt="logo" />
+            <img src={LogoS} alt="Logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="hbenso" />
         </Link>
         <nav>
@@ -41,6 +43,7 @@ const Sidebar = () => (
             </li>
         </ul>
     </div>
-)
+    )
+}
 
 export default Sidebar

@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import LogoTitle from '../../assets/images/logo-s.png';
 import './index.scss'
+import { Bars } from 'react-loader-spinner';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -20,6 +21,7 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -50,6 +52,16 @@ const Home = () => {
             </div>
             <Logo />
         </div>
+        <Bars
+                height="80"
+                width="80"
+                color="#FFFFFF"
+                ariaLabel="bars-loading"
+                wrapperStyle={{}}
+                wrapperClass="loader-active"
+                visible={true}
+        />
+        </>
     )
 }
 
